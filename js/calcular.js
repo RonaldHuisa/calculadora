@@ -15,8 +15,10 @@ function mostrar(valor){
         }
     }else{
         if(sintaxis == ""){
-            document.getElementById('resultado').value += valor;
-            sintaxis += valor;
+            if(!operador.includes(valor)){
+                document.getElementById('resultado').value += valor;
+                sintaxis += valor;
+            }
         }else{
             if(operador.includes(sintaxis[sintaxis.length-1]) && operador.includes(valor)){
 
