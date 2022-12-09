@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(183, 255, 183);
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    background-color: rgb(155, 229, 155);
+    width: 35%;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.3) 10px 20px 20px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+.calculadora{
+    margin: 10px auto;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 75px;
+    box-shadow: rgba(0,0,0,.3) 0 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+td, th {
+    padding: 5px 5px;
+}
+
+.boton, .operador {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    transition: 500ms;
+    background: white;
+}
+
+.boton:active , .operador:active{
+    font-size: 25px;
+}
+
+.boton:hover {
+    background: rgb(146, 248, 197);
+}
+
+.operador:hover{
+    background: rgb(255, 238, 139);
+}
+
+
+button{
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.3) 0 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+.btn-solve{
+    transition: 500ms;
+}
+
+.btn-solve:hover{
+    background: rgb(150, 183, 255);
+}
+
+.boton-borrar{
+    border: none;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    background: white;
+    box-shadow: rgba(0,0,0,.3) 0 10px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+
+.boton-borrar:hover {
+    background: rgb(255, 128, 128);
+}
+
+
+/*Colores*/
+
+.colores{
+    padding: 20px 0 0 0 ;
+    text-align: center;
+}
+
+.circular {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: rgba(0,0,0,.1) 0 10px 10px;
+    border: 2px solid white;
+}
+
+.circular:hover{
+    opacity: 0.9;
+}
+
+.rojo {
+    background: rgb(255, 143, 143);
+}
+.verde{
+    background: rgb(155, 229, 155);
+}
+
+.amarillo {
+    background: rgb(255, 240, 153);
+}
+
+.azul {
+    background: rgb(153, 214, 229);
+}
+
+.morado{
+    background: rgb(212, 155, 229);
+}
+
+
+
+/*Footer*/
+
+img {
+    width: 35px;
+    height: 35px;
+    padding: 0 5px;
+    transition: 200ms;
+}
+
+img:hover{
+    width: 40px;
+    height: 40px;
+    padding: 0 7px;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+
+
