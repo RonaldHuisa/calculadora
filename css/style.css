@@ -1,6 +1,7 @@
 body{
     background-color: rgb(183, 255, 183);
     font-family: sans-serif;
+    transition: 600ms;
 }
 
 .container {
