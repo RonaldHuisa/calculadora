@@ -164,3 +164,32 @@ footer {
 
 
 
+/*Responsive*/
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
