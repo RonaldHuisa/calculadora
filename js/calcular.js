@@ -10,8 +10,6 @@ function mostrar(valor){
             document.getElementById('resultado').value += valor;
             bandera = 0;
             sintaxis += valor;
-        }else{
-            document.getElementById('resultado').value = "";
         }
     }else{
         if(sintaxis == ""){
