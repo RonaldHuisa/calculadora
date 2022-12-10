@@ -55,7 +55,7 @@ function limpiar(){
             document.getElementById('resultado').value = "";
         }else{
             document.getElementById('resultado').value = todo.substring(0, todo.length - 1);
-            sintaxis = todo.substring(0, todo.length - 1);
+            sintaxis = todo.substring(0, todo.length - 1); //
         }
     }
 }
